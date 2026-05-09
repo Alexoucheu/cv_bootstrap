@@ -2,25 +2,25 @@
 
 <ins>Eléments à avoir sur le site :</ins>
 
-- [] prénom
-- [] photo / avatar
-- [] date de naissance
-- [] coordonnées (mail et linkedin)
-- [] formation
-- [] compétences (langues et logiciels)
-- [] intérêts (sports, anime, lecture, etc)
+- [ ] prénom
+- [ ] photo / avatar
+- [ ] date de naissance
+- [ ] coordonnées (mail et linkedin)
+- [ ] formation
+- [ ] compétences (langues et logiciels)
+- [ ] intérêts (sports, anime, lecture, etc)
 
 ---
 
-- [] version mobile
-- [] version tablette
-- [] version ordinateur
+- [ ] version mobile
+- [ ] version tablette
+- [ ] version ordinateur
 
 ---
 
-- [] grid
-- [] éléments qui changent en version mobile
-- [] utilisation de minimum 3 classes utilitaire
+- [ ] grid
+- [ ] éléments qui changent en version mobile
+- [ ] utilisation de minimum 3 classes utilitaire
 
 ## Les différentes sections / "*pages*"
 
