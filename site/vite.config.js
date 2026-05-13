@@ -1,24 +1,31 @@
-import { resolve } from 'path'
+import { resolve } from 'path';
 
 export default {
   root: resolve(__dirname, 'src'),
   build: {
-    outDir: '../dist'
+    outDir: '../dist',
+    rollupOptions: {
+      input: {
+        main: resolve(__dirname, 'src/index.html'),
+        presentation: resolve(__dirname, 'src/pages/presentation.html'),
+        contact: resolve(__dirname, 'src/pages/contact.html'),
+        experiences_interests: resolve(__dirname, 'src/pages/experiences_interests.html'),
+      },
+    },
   },
   server: {
     port: 8080
   },
-  // Optional: Silence Sass deprecation warnings. See note below.
   css: {
-     preprocessorOptions: {
-        scss: {
-          silenceDeprecations: [
-            'import',
-            'mixed-decls',
-            'color-functions',
-            'global-builtin',
-          ],
-        },
-     },
+    preprocessorOptions: {
+      scss: {
+        silenceDeprecations: [
+          'import',
+          'mixed-decls',
+          'color-functions',
+          'global-builtin',
+        ],
+      },
+    },
   },
-}
+};
