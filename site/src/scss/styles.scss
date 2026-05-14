@@ -10,6 +10,15 @@ $spacers: (
    6: 4rem,   
 );
 
+$grid-breakpoints: (
+xs: 0,
+sm: 670px,
+md: 846px,
+lg: 992px,
+xl: 1200px,
+xxl: 1400px
+);
+
 
 
 // Import all of Bootstrap’s CSS

@@ -5,17 +5,36 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="author" content="Gaildrat Alexis">
-  <meta name="description" content="Cv en ligne de Gaildrat Alexis">
+  <meta name="description" content="The web CV of Gaildrat Alexis">
 
-  <title>Gaildrat Alexis - CV en ligne</title>
+  <title>Gaildrat Alexis - Web CV</title>
   <link rel="stylesheet" href="scss/styles.scss">
   <script type="module" src="./js/main.js"></script>
 </head>
 
 <body class="bg-perso bg-gradient">
   
-  <header>
-    <div class="btn-group-lg fixed-top d-flex bg-secondary bg-opacity-75 justify-content-evenly border border-5 border-secondary border-opacity-50 rounded-pill w-auto start-50 translate-middle-x">
+  <!--Header for breakpoints greater or equals to md, if they are smaller hide the header '#laptop'-->
+  <header id="laptop">
+    <div class="btn-group-lg d-none d-md-flex fixed-top bg-secondary bg-opacity-75 justify-content-evenly border border-5 border-secondary border-opacity-50 rounded-pill w-auto start-50 translate-middle-x">
+      <a href="#" role="button" class="btn btn-primary rounded-pill disabled"  aria-current="page">About me</a>
+      <a href="/pages/experiences_interests.html" role="button" class="btn btn-outline-primary rounded-pill">My experiences</a>
+      <a href="/pages/contact.html" role="button" class="btn btn-outline-primary rounded-pill">Contact</a>
+    </div>  
+  </header>
+
+  <!--Header for breakpoints smaller than md but greater than sm, if they are greater than sm hide the header '#tablet'-->
+  <header id="tablet">
+    <div class="btn-group-lg btn-group-vertical d-sm-inline-flex d-none d-md-none sticky-top bg-secondary bg-opacity-75 justify-content-evenly border border-5 border-secondary border-opacity-50 rounded-4 start-50 translate-middle-x text-no-wrap">
+      <a href="#" role="button" class="btn btn-primary rounded-pill disabled"  aria-current="page">About me</a>
+      <a href="/pages/experiences_interests.html" role="button" class="btn btn-outline-primary rounded-pill">My experiences</a>
+      <a href="/pages/contact.html" role="button" class="btn btn-outline-primary rounded-pill">Contact</a>
+    </div>  
+  </header>
+
+  <!--Header for breakpoints smaller than sm, if they are greater hide the header '#mobile'-->
+  <header id="mobile">
+    <div class="btn-group btn-group-vertical d-inline-flex d-sm-none sticky-top bg-secondary bg-opacity-75 justify-content-evenly border border-5 border-secondary border-opacity-50 rounded-4 start-50 translate-middle-x text-no-wrap">
       <a href="#" role="button" class="btn btn-primary rounded-pill disabled"  aria-current="page">About me</a>
       <a href="/pages/experiences_interests.html" role="button" class="btn btn-outline-primary rounded-pill">My experiences</a>
       <a href="/pages/contact.html" role="button" class="btn btn-outline-primary rounded-pill">Contact</a>
@@ -94,9 +113,10 @@
       </pre>
   </main>
 
+  <!--When the screen is smaller than sm make the elements center and put then one under the other-->
   <footer>
-    <nav class="navbar bg-secondary sticky-botoom border-top border-white border-2">
-      <div class="container-fluid">
+    <nav class="navbar bg-secondary sticky-botoom border-top border-white border-3">
+      <div class="container-fluid justify-content-sm-between justify-content-center flex-sm-row flex-column">
         <span class="navbar-text">2026 Copyleft Gaildrat Alexis</span>
 
         <span class="navbar-text">
@@ -123,33 +143,3 @@
 </body>
 
 </html>
-
-
-<!--
-  <nav class="p-4 m-4 bg-primary bg-opacity-25">
-    <div class="btn-group-lg d-flex justify-content-center gap-4">
-      <a href="#" role="button" class="btn btn-primary disabled"  aria-current="page">About me</a>
-      <a href="/pages/experiences_interests.html" role="button" class="btn btn-outline-primary">My experiences</a>
-      <a href="/pages/contact.html" role="button" class="btn btn-outline-primary">Contact</a>
-    </div>  
-  </nav>
--->
-
-<!--
-  <ul class="nav nav-underline">
-    <li class="nav-item">
-      <a class="nav-link active" aria-current="page" href="#">Active</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="#">Link</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="#">Link</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-    </li>
-  </ul>
-
-  essayer de les utiliser avec le navbar pour avoir la position fixed mais j'ai peur que le fixed-top supprime le gap, etc....
--->
