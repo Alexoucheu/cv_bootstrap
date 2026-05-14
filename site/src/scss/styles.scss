@@ -1,9 +1,13 @@
 $primary: green;
 
+$secondary: rgb(217, 255, 217);
+
 .bg-perso {  background-color: rgb(255, 255, 222);   }
 
+.border-perso {  border-color: rgb(255, 255, 222);   }
+
 $spacers: (
-   6: 4rem,  
+   6: 4rem,   
 );
 
 
