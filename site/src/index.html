@@ -1,29 +1,35 @@
 <!doctype html>
 <html lang="en">
 
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="author" content="Gaildrat Alexis">
-    <meta name="description" content="Cv en ligne de Gaildrat Alexis">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="Gaildrat Alexis">
+  <meta name="description" content="Cv en ligne de Gaildrat Alexis">
 
-    <title>Gaildrat Alexis - CV en ligne</title>
-    <link rel="stylesheet" href="scss/styles.scss">
-    <script type="module" src="./js/main.js"></script>
-  </head>
-  
-  <body class="container-sm bg-success-subtle bg-gradient">
-    <header>
-      <nav class="navbar p-4 m-4 bg-primary bg-opacity-25 d-flex justify-content-center gap-5 rounded-pill">
-        <a href="#" role="button" class="btn btn-primary rounded-pill disabled p-3"  aria-current="page">About me</a>
-        <a href="/pages/experiences_interests.html" role="button" class="btn btn-outline-primary rounded-pill p-3">My experiences</a>
-        <a href="/pages/contact.html" role="button" class="btn btn-outline-primary rounded-pill p-3">Contact</a>
-      </nav>
-    </header>
-    
-    <main>
-      <h1 class="text-secondary text-decoration-underline">Hello there !</h1>
-      <pre class="">
+  <title>Gaildrat Alexis - CV en ligne</title>
+  <link rel="stylesheet" href="scss/styles.scss">
+  <script type="module" src="./js/main.js"></script>
+</head>
+
+<body class="bg-perso bg-gradient">
+  <header>
+    <nav class="p-4 m-4 bg-primary bg-opacity-25">
+      <div class="btn-group-lg fixed-top d-flex justify-content-center gap-4">
+        <a href="#" role="button" class="btn btn-primary disabled"  aria-current="page">About me</a>
+        <a href="/pages/experiences_interests.html" role="button" class="btn btn-outline-primary">My experiences</a>
+        <a href="/pages/contact.html" role="button" class="btn btn-outline-primary">Contact</a>
+      </div>  
+    </nav>  
+  </header>
+
+  <main class="mt-6 container-sm">
+
+    <h1 class="text-secondary text-decoration-underline">Presentation</h1>
+    <h1>My schoolarship</h1>
+    <h1>My skills</h1>
+
+    <pre class="">
                                        __
                               /\    .-" /
                               /  ; .'  .' 
@@ -86,22 +92,63 @@
                               '     /               `-----''               /     |
                               `...-'                                       `...-'
       </pre>
-    </main>
+  </main>
 
-    <footer>
+  <footer>
+    <nav class="navbar bg-success-subtle sticky-botoom border-top border-white border-2">
+      <div class="container-fluid">
+        <span class="navbar-text">2026 Copyleft Gaildrat Alexis</span>
 
-    </footer>
-  </body>
+        <span class="navbar-text">
+          Made with &hearts; w/ 
+          <a href="https://getbootstrap.com/" target="blank">
+            <img src="/images/bootstrap-logo.svg" alt="Bootstrap logo" width="45" height="37.5">
+          </a>
+           and 
+          <a href="https://github.com/" target="blank">
+            <img src="/images/github-logo_dark.svg" alt="Github logo" width="45" height="37.5">
+          </a>
+          .
+        </span>
+        <span class="navbar-text">
+          <a class="btn btn-sm btn-dark text-white" role="button" href="https://github.com/Alexoucheu/cv_bootstrap/">
+            <img src="/images/github-logo_white.svg" alt="Github logo" width="30" height="25">
+            View source code
+          </a>
+        </span>
+      </div>
+    </nav>
+  </footer>
+</body>
 
-  </html>
+</html>
 
 
 <!--
-  <nav class="navbar p-4 m-4 bg-primary bg-opacity-25">
+  <nav class="p-4 m-4 bg-primary bg-opacity-25">
     <div class="btn-group-lg d-flex justify-content-center gap-4">
       <a href="#" role="button" class="btn btn-primary disabled"  aria-current="page">About me</a>
       <a href="/pages/experiences_interests.html" role="button" class="btn btn-outline-primary">My experiences</a>
       <a href="/pages/contact.html" role="button" class="btn btn-outline-primary">Contact</a>
     </div>  
   </nav>
+-->
+
+<!--
+  <ul class="nav nav-underline">
+    <li class="nav-item">
+      <a class="nav-link active" aria-current="page" href="#">Active</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Link</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Link</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+    </li>
+  </ul>
+
+  essayer de les utiliser avec le navbar pour avoir la position fixed mais j'ai peur que le fixed-top supprime le gap, etc....
 -->
