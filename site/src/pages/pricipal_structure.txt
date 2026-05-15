@@ -45,29 +45,6 @@
 
   <main class="mt-md-7 mt-3 container-sm flex-grow-1">
 
-    <div class="toast-container position-fixed top-1 end-0_5">
-      <div class="toast show" role="alert" aria-live="assertive" aria-atomic="true" data-bs-autohide="false">
-        <div class="toast-header text-bg-info bg-opacity-50">
-          <strong class="me-auto">Alexis Gaildrat</strong>
-          <small>just now</small>
-          <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
-        </div>
-        <div class="toast-body">
-          I hope you will enjoy my <strong><i><mark>beautiful</mark></i></strong> cv website&nbsp;!&nbsp;;)
-        </div>
-      </div>
-    </div>
-
-    <div class="d-flex flex-column align-items-center">
-      <img class="rounded-5 align-self-center img-thumbnails" src="/images/picture_of_me.jpg" width="250" height="250" alt="A photo of me">
-      <h1 class="text-center mt-5">Hi.&nbsp;&#128512;<br> I'm Alexis a web-ingeneering student&nbsp;!</h1>
-      <div class="col-11 col-md-8">
-        <hr class="border border-2  border-black">
-      </div>
-      <p class="fs-5 text-center">I'm a french-german&nbsp;🇫🇷🇩🇪&nbsp;student at ISFATES&nbsp;/&nbsp;DFHI.</p>
-      <p class="text-center fs-5 lh-lg">I like studying, coding and doing sports.<br>And I love coding website even if sometimes you fight against the css.⚔️</p>
-    </div>
-
   </main>
 
   <!--When the screen is smaller than sm make the elements center and put then one under the other-->

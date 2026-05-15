@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="Gaildrat Alexis">
+  <meta name="description" content="The web CV of Gaildrat Alexis">
+
+  <title>Gaildrat Alexis - Web CV</title>
+  <link rel="stylesheet" href="scss/styles.scss">
+  <script type="module" src="/js/main.js"></script>
+</head>
+
+<body class="bg-perso bg-gradient">
+  
+  <!--Header for breakpoints greater or equals to md, if they are smaller hide the header '#laptop'-->
+  <header id="laptop">
+    <div class="btn-group-lg d-none d-md-flex fixed-top bg-secondary bg-opacity-75 justify-content-evenly border border-5 border-secondary border-opacity-50 rounded-pill w-auto start-50 translate-middle-x">
+      <a href="#" role="button" class="btn btn-primary rounded-pill disabled"  aria-current="page">About me</a>
+      <a href="/pages/experiences_interests.html" role="button" class="btn btn-outline-primary rounded-pill">My experiences</a>
+      <a href="/pages/contact.html" role="button" class="btn btn-outline-primary rounded-pill">Contact</a>
+    </div>  
+  </header>
+
+  <!--Header for breakpoints smaller than md but greater than sm, if they are greater than sm hide the header '#tablet'-->
+  <header id="tablet">
+    <div class="btn-group-lg btn-group-vertical d-sm-inline-flex d-none d-md-none sticky-top bg-secondary bg-opacity-75 justify-content-evenly border border-5 border-secondary border-opacity-50 rounded-4 start-50 translate-middle-x text-no-wrap">
+      <a href="#" role="button" class="btn btn-primary rounded-pill disabled"  aria-current="page">About me</a>
+      <a href="/pages/experiences_interests.html" role="button" class="btn btn-outline-primary rounded-pill">My experiences</a>
+      <a href="/pages/contact.html" role="button" class="btn btn-outline-primary rounded-pill">Contact</a>
+    </div>  
+  </header>
+
+  <!--Header for breakpoints smaller than sm, if they are greater hide the header '#mobile'-->
+  <header id="mobile">
+    <div class="btn-group btn-group-vertical d-inline-flex d-sm-none sticky-top bg-secondary bg-opacity-75 justify-content-evenly border border-5 border-secondary border-opacity-50 rounded-4 start-50 translate-middle-x text-no-wrap">
+      <a href="#" role="button" class="btn btn-primary rounded-pill disabled"  aria-current="page">About me</a>
+      <a href="/pages/experiences_interests.html" role="button" class="btn btn-outline-primary rounded-pill text-nowrap">My experiences</a>
+      <a href="/pages/contact.html" role="button" class="btn btn-outline-primary rounded-pill">Contact</a>
+    </div>  
+  </header>
+
+
+  <main class="mt-6 container-sm">
+
+    <h1 class="text-danger text-decoration-underline">Presentation</h1>
+    <h1>My schoolarship</h1>
+    <h1>My skills</h1>
+
+    <pre class="">
+                                       __
+                              /\    .-" /
+                              /  ; .'  .' 
+                            :   :/  .'   
+                              \  ;-.'     
+                .--""""--..__/     `.    
+              .'           .'    `o  \   
+              /                    `   ;  
+            :                  \      :  
+          .-;        -.         `.__.-'  
+          :  ;          \     ,   ;       
+          '._:           ;   :   (        
+              \/  .__    ;    \   `-.     
+              ;     "-,/_..--"`-..__)    
+              '""--.._:
+                                                /;    ;\
+                                            __  \\____//
+                                            /{_\_/   `'\____
+                                            \___   (o)  (o  }
+                _____________________________/          :--'  
+            ,-,'`@@@@@@@@       @@@@@@         \_    `__\
+            ;:(  @@@@@@@@@        @@@             \___(o'o)
+            :: )  @@@@          @@@@@@        ,'@@(  `===='       
+            :: : @@@@@:          @@@@         `@@@:
+            :: \  @@@@@:       @@@@@@@)    (  '@@@'
+            ;; /\      /`,    @@@@@@@@@\   :@@@@@)
+            ::/  )    {_----------------:  :~`,~~;
+          ;;'`; :   )                  :  / `; ;
+          ;;;; : :   ;                  :  ;  ; :              
+          `'`' / :  :                   :  :  : :
+              )_ \__;      ";"          :_ ;  \_\       `,','
+              :__\  \    * `,'*         \  \  :  \   *  8`;'*  *
+                  `^'     \ :/           `^'  `-^-'   \v/ :  \/ 
+
+
+                                                          .--.
+                                                          `.  \
+                                                            \  \
+                                                              .  \
+                                                              :   .
+                                                              |    .
+                                                              |    :
+                                                              |    |
+              ..._  ___                                       |    |
+            `."".`''''""--..___                              |    |
+            ,-\  \             ""-...__         _____________/    |
+            / ` " '                    `""""""""                  .
+            \                                                      L
+            (>                                                      \
+            /                                                         \
+            \_    ___..---.                                            L
+              `--'         '.                                           \
+                            .                                           \_
+                            _/`.                                           `.._
+                        .'     -.                                             `.
+                        /     __.-Y     /''''''-...___,...--------.._            |
+                      /   _."    |    /                ' .      \   '---..._    |
+                      /   /      /    /                _,. '    ,/           |   |
+                      \_,'     _.'   /              /''     _,-'            _|   |
+                              '     /               `-----''               /     |
+                              `...-'                                       `...-'
+      </pre>
+  </main>
+
+  <!--When the screen is smaller than sm make the elements center and put then one under the other-->
+  <footer>
+    <nav class="navbar bg-secondary sticky-botoom border-top border-white border-3">
+      <div class="container-fluid justify-content-sm-between justify-content-center flex-sm-row flex-column">
+        <span class="navbar-text">2026 Copyleft Gaildrat Alexis</span>
+
+        <span class="navbar-text">
+          Made with &hearts; w/ 
+          <a href="https://getbootstrap.com/" target="blank">
+            <img src="/images/bootstrap-logo.svg" alt="Bootstrap logo" width="45" height="37.5">
+          </a>
+           and 
+          <a href="https://github.com/" target="blank">
+            <img src="/images/github-logo_dark.svg" alt="Github logo" width="45" height="37.5">
+          </a>
+          .
+        </span>
+        <span class="navbar-text">
+          <a class="btn btn-sm btn-dark text-white" role="button" href="https://github.com/Alexoucheu/cv_bootstrap/">
+            <img src="/images/github-logo_white.svg" alt="Github logo" width="30" height="25">
+            View source code
+          </a>
+        </span>
+      </div>
+    </nav>
+  </footer>
+
+</body>
+
+</html>

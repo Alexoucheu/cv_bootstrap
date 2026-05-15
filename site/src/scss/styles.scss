@@ -7,7 +7,15 @@ $secondary: rgb(217, 255, 217);
 .border-perso {  border-color: rgb(255, 255, 222);   }
 
 $spacers: (
-   6: 4rem,   
+
+  0: 0,
+  1: 0.25rem,
+  2: 0.5rem,
+  3: 1rem,
+  4: 1.5rem,
+  5: 3rem,
+  6: 4rem,
+  7: 5.5rem    
 );
 
 $grid-breakpoints: (
@@ -19,7 +27,22 @@ xl: 1200px,
 xxl: 1400px
 );
 
+$position-values: (
+  0: 0,
+  0_5: 0.5%,
+  1: 1%,
+  50: 50%,
+  100: 100%
+);
 
+$width-values: (
+    25: 25%,
+    38: 38%,
+    50: 50%,
+    75: 75%,
+    100: 100%,
+    auto: auto
+  );
 
 // Import all of Bootstrap’s CSS
 @import "bootstrap/scss/bootstrap";

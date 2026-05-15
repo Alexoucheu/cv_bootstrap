@@ -46,3 +46,9 @@
  - Popovers (Pour créer quelquechose d'interactif ??)
  - Progress (Pour faire semblent que tout va mal.)
  - Toasts pour la première page
+
+### Les différentes classes utilitaires utilisées
+
+ - btn group (pour les headers)
+ - btn (pour les liens des headers)
+ - navbar (pour le footer)

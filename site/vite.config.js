@@ -9,6 +9,7 @@ export default {
         main: resolve(__dirname, 'src/index.html'),
         contact: resolve(__dirname, 'src/pages/contact.html'),
         experiences_interests: resolve(__dirname, 'src/pages/experiences_interests.html'),
+        about_me: resolve(__dirname, 'src/pages/about_me.html'),
       },
     },
   },
