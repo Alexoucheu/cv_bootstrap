@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" onselectstart="return false">
 
 <head>
   <meta charset="utf-8">
@@ -9,13 +9,12 @@
 
   <title>Gaildrat Alexis - Web CV | About me</title>
   <link rel="stylesheet" href="scss/styles.scss">
-  <script type="module" src="/js/main.js"></script>
   <script src="https://kit.fontawesome.com/09643c4960.js" crossorigin="anonymous"></script>
 </head>
 
 <!--min-vh-100 d-flex flex-column in body and flex-grow-1 in main to make the main take all the white space and enable the footer to be at the bottom.-->
 <!--'onselectstart="return false"' disable the selection, int this case for the body-->
-<body class="bg-perso bg-gradient min-vh-100 d-flex flex-column" onselectstart="return false">
+<body class="bg-perso bg-gradient min-vh-100 d-flex flex-column">
   
   <!--Header for breakpoints greater or equals to md, if they are smaller hide the header '#laptop'-->
   <header id="laptop">
@@ -48,16 +47,16 @@
   <main class="mt-md-7 mt-3 container-sm flex-grow-1">
 
     <div class="d-flex flex-column align-items-center">
-      <div class="rounded-3 bg-blue overflow hidden mt-6"><img class="rounded-3" style="margin-top:-50px;" src="/images/picture_of_me.png" width="250" height="250" alt="A photo of me"></div>
+      <div class="rounded-3 bg-blue mt-6"><img class="rounded-3" style="margin-top:-50px;" src="/images/picture_of_me.png" loading="lazy" width="250" height="250" alt="A photo of me"></div>
       <p class="text-center mt-5 fs-2">Hi.&nbsp;&#128512;<br> I'm Gaildrat Alexis a <strong>french</strong> web-developer (or web engineering) student&nbsp;!</p>
-      <p class="fs-5">I was born the 25 december 2025 so I'm <script>document.write(new Date().getFullYear()-2008)</script> <!--this script change my age automatically.--> years old.</p>
+      <p class="fs-5">I was born the 25 december 2007 so I'm <script>document.write(new Date().getFullYear()-2008)</script> <!--this script change my age automatically. I put '-2008' because most of the time  it is accurate.i--> years old.</p>
     </div>
 
     <section class="py-5">
       <h1 class="text-uppercase text-decoration-underline pb-2">Education</h1>
       <ul class="timeline border-start border-black border-3 ps-4 list-unstyled">
         <li class="timeline-item mb-5" style="left:-50px;">
-          <h5 class="fw-bold">First year of my French-German bi-national studies in  Computer Science and Web Engineering at DFHI-ISFATES</h5>
+          <h2 class="fw-bold fs-5">First year of my French-German bi-national studies in  Computer Science and Web Engineering at DFHI-ISFATES</h2>
           <p class="text-muted mb-2 fw-bold">2025 - now</p>
           <p class="text-muted">
             I proudly study at DFHI-ISFATES in <strong>Metz</strong> a Computer Science and Web Engineering study.<br>
@@ -66,7 +65,7 @@
         </li>
 
         <li class="timeline-item mb-5">
-          <h5 class="fw-bold">Obtaining the Bac</h5>
+          <h2 class="fw-bold fs-5">Obtaining the Bac</h2>
           <p class="text-muted mb-2 fw-bold">2025</p>
           <p class="text-muted">
             Mathematics, physics-chemestry and IT.<br>
@@ -75,7 +74,7 @@
         </li>
 
         <li class="timeline-item mb-5">
-          <h5 class="fw-bold">How it all started</h5>
+          <h2 class="fw-bold fs-5">How it all started</h2>
           <p class="text-muted mb-2 fw-bold">15 October 2020</p>
           <p class="text-muted"> 
             We had to build a small website about our favourite subject in middle school. 
@@ -120,7 +119,7 @@
 
   <!--When the screen is smaller than sm make the elements center and put then one under the other-->
   <footer>
-    <nav class="navbar bg-secondary sticky-botoom border-top border-white border-3">
+    <nav class="navbar bg-secondary sticky-bottom border-top border-white border-3">
       <div class="container-fluid justify-content-sm-between justify-content-center flex-sm-row flex-column">
         <span class="navbar-text">
           <script>document.write(new Date().getFullYear())</script> <!--this script change the date automatically.-->
@@ -130,17 +129,17 @@
         <span class="navbar-text">
           Made with &hearts; w/ 
           <a href="https://getbootstrap.com/" target="blank">
-            <img src="/images/bootstrap-logo.svg" alt="Bootstrap logo" width="45" height="37.5">
+            <img src="/images/bootstrap-logo.svg" alt="Bootstrap logo" loading="lazy" width="45" height="38">
           </a>
            and 
           <a href="https://github.com/" target="blank">
-            <img src="/images/github-logo_dark.svg" alt="Github logo" width="45" height="37.5">
+            <img src="/images/github-logo_dark.svg" alt="Github logo" loading="lazy" width="45" height="38">
           </a>
           .
         </span>
         <span class="navbar-text">
           <a class="btn btn-sm btn-dark text-white" role="button" href="https://github.com/Alexoucheu/cv_bootstrap/">
-            <img src="/images/github-logo_white.svg" alt="Github logo" width="30" height="25">
+            <img src="/images/github-logo_white.svg" alt="Github logo" loading="lazy" width="30" height="25">
             View source code
           </a>
         </span>
@@ -148,6 +147,7 @@
     </nav>
   </footer>
 
+  <script type="module" src="/js/main.js"></script>
 </body>
 
 </html>
