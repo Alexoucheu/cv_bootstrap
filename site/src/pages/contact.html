@@ -7,9 +7,9 @@
   <meta name="author" content="Gaildrat Alexis">
   <meta name="description" content="The web CV of Gaildrat Alexis">
 
-  <title>Gaildrat Alexis - Web CV / Contact</title>
+  <title>Gaildrat Alexis - Web CV | Contact</title>
   <link rel="stylesheet" href="scss/styles.scss">
-  <script type="module" src="/js/main.js"></script>
+  <script src="https://kit.fontawesome.com/09643c4960.js" crossorigin="anonymous"></script>
 </head>
 
 <!--min-vh-100 d-flex flex-column in body and flex-grow-1 in main to make the main take all the white space and enable the footer to be at the bottom.-->
@@ -43,27 +43,37 @@
     </div>  
   </header>
 
+  <main class="mt-md-7 mt-3 container-sm d-flex flex-grow-1">
 
-  <main class="mt-md-7 mt-3 container-sm flex-grow-1">
-
-
+    <div class="d-flex flex-column align-items-center justify-content-center flex-grow-1">
+      <h1 class="text-uppercase text-decoration-underline pb-5">Contact</h1>
+      <p><i class="fa-solid fa-at fs-2x"></i>&nbsp;gaildratalexis.gaildrat058041@gmail.com</p>
+      <div class="py-5">
+        <a href="https://github.com/Alexoucheu" class="text-black"><i class="fa-brands fa-github fs-1"></i></a>
+        <a href="https://www.linkedin.com/in/alexis-gaildrat-4b25213a8/" class="text-black"><i class="fa-brands fa-linkedin fs-1"></i></a>
+      </div>
+      <a class="btn bg-warning border border-black border-1 rounded-pill " download href="/misc/CV_GAILDRAT-ALEXIS.pdf"><i class="fa-solid fa-download"></i>&nbsp;Download my cv in pdf</a>
+    </div>
 
   </main>
 
   <!--When the screen is smaller than sm make the elements center and put then one under the other-->
   <footer>
-    <nav class="navbar bg-secondary sticky-botoom border-top border-white border-3">
+    <nav class="navbar bg-secondary sticky-bottom border-top border-white border-3">
       <div class="container-fluid justify-content-sm-between justify-content-center flex-sm-row flex-column">
-        <span class="navbar-text">2026 Copyleft Gaildrat Alexis</span>
+        <span class="navbar-text">
+          <script>document.write(new Date().getFullYear())</script><!--this script change the date automatically.-->
+          &nbsp;&copy;&nbsp;Gaildrat Alexis
+        </span>
 
         <span class="navbar-text">
           Made with &hearts; w/ 
           <a href="https://getbootstrap.com/" target="blank">
-            <img src="/images/bootstrap-logo.svg" alt="Bootstrap logo" width="45" height="37.5">
+            <img src="/images/bootstrap-logo.svg" alt="Bootstrap logo" width="45" height="38">
           </a>
            and 
           <a href="https://github.com/" target="blank">
-            <img src="/images/github-logo_dark.svg" alt="Github logo" width="45" height="37.5">
+            <img src="/images/github-logo_dark.svg" alt="Github logo" width="45" height="38">
           </a>
           .
         </span>
@@ -77,6 +87,7 @@
     </nav>
   </footer>
 
+  <script type="module" src="/js/main.js"></script>
 </body>
 
 </html>
