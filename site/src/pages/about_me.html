@@ -7,17 +7,19 @@
   <meta name="author" content="Gaildrat Alexis">
   <meta name="description" content="The web CV of Gaildrat Alexis">
 
-  <title>Gaildrat Alexis - Web CV</title>
+  <title>Gaildrat Alexis - Web CV / About me</title>
   <link rel="stylesheet" href="scss/styles.scss">
   <script type="module" src="/js/main.js"></script>
 </head>
 
-<body class="bg-perso bg-gradient">
+<!--min-vh-100 d-flex flex-column in body and flex-grow-1 in main to make the main take all the white space and enable the footer to be at the bottom.-->
+<!--'onselectstart="return false"' disable the selection, int this case for the body-->
+<body class="bg-perso bg-gradient min-vh-100 d-flex flex-column" onselectstart="return false">
   
   <!--Header for breakpoints greater or equals to md, if they are smaller hide the header '#laptop'-->
   <header id="laptop">
     <div class="btn-group-lg d-none d-md-flex fixed-top bg-secondary bg-opacity-75 justify-content-evenly border border-5 border-secondary border-opacity-50 rounded-pill w-auto start-50 translate-middle-x">
-      <a href="#" role="button" class="btn btn-primary rounded-pill disabled"  aria-current="page">About me</a>
+      <a href="#" role="button" class="btn btn-primary rounded-pill disabled" aria-current="page">About me</a>
       <a href="/pages/experiences_interests.html" role="button" class="btn btn-outline-primary rounded-pill">My experiences</a>
       <a href="/pages/contact.html" role="button" class="btn btn-outline-primary rounded-pill">Contact</a>
     </div>  
@@ -26,7 +28,7 @@
   <!--Header for breakpoints smaller than md but greater than sm, if they are greater than sm hide the header '#tablet'-->
   <header id="tablet">
     <div class="btn-group-lg btn-group-vertical d-sm-inline-flex d-none d-md-none sticky-top bg-secondary bg-opacity-75 justify-content-evenly border border-5 border-secondary border-opacity-50 rounded-4 start-50 translate-middle-x text-no-wrap">
-      <a href="#" role="button" class="btn btn-primary rounded-pill disabled"  aria-current="page">About me</a>
+      <a href="#" role="button" class="btn btn-primary rounded-pill disabled" aria-current="page">About me</a>
       <a href="/pages/experiences_interests.html" role="button" class="btn btn-outline-primary rounded-pill">My experiences</a>
       <a href="/pages/contact.html" role="button" class="btn btn-outline-primary rounded-pill">Contact</a>
     </div>  
@@ -35,82 +37,17 @@
   <!--Header for breakpoints smaller than sm, if they are greater hide the header '#mobile'-->
   <header id="mobile">
     <div class="btn-group btn-group-vertical d-inline-flex d-sm-none sticky-top bg-secondary bg-opacity-75 justify-content-evenly border border-5 border-secondary border-opacity-50 rounded-4 start-50 translate-middle-x text-no-wrap">
-      <a href="#" role="button" class="btn btn-primary rounded-pill disabled"  aria-current="page">About me</a>
+      <a href="#" role="button" class="btn btn-primary rounded-pill disabled" aria-current="page">About me</a>
       <a href="/pages/experiences_interests.html" role="button" class="btn btn-outline-primary rounded-pill text-nowrap">My experiences</a>
       <a href="/pages/contact.html" role="button" class="btn btn-outline-primary rounded-pill">Contact</a>
     </div>  
   </header>
 
 
-  <main class="mt-6 container-sm">
-
-    <h1 class="text-danger text-decoration-underline">Presentation</h1>
-    <h1>My schoolarship</h1>
-    <h1>My skills</h1>
-
-    <pre class="">
-                                       __
-                              /\    .-" /
-                              /  ; .'  .' 
-                            :   :/  .'   
-                              \  ;-.'     
-                .--""""--..__/     `.    
-              .'           .'    `o  \   
-              /                    `   ;  
-            :                  \      :  
-          .-;        -.         `.__.-'  
-          :  ;          \     ,   ;       
-          '._:           ;   :   (        
-              \/  .__    ;    \   `-.     
-              ;     "-,/_..--"`-..__)    
-              '""--.._:
-                                                /;    ;\
-                                            __  \\____//
-                                            /{_\_/   `'\____
-                                            \___   (o)  (o  }
-                _____________________________/          :--'  
-            ,-,'`@@@@@@@@       @@@@@@         \_    `__\
-            ;:(  @@@@@@@@@        @@@             \___(o'o)
-            :: )  @@@@          @@@@@@        ,'@@(  `===='       
-            :: : @@@@@:          @@@@         `@@@:
-            :: \  @@@@@:       @@@@@@@)    (  '@@@'
-            ;; /\      /`,    @@@@@@@@@\   :@@@@@)
-            ::/  )    {_----------------:  :~`,~~;
-          ;;'`; :   )                  :  / `; ;
-          ;;;; : :   ;                  :  ;  ; :              
-          `'`' / :  :                   :  :  : :
-              )_ \__;      ";"          :_ ;  \_\       `,','
-              :__\  \    * `,'*         \  \  :  \   *  8`;'*  *
-                  `^'     \ :/           `^'  `-^-'   \v/ :  \/ 
+  <main class="mt-md-7 mt-3 container-sm flex-grow-1">
 
 
-                                                          .--.
-                                                          `.  \
-                                                            \  \
-                                                              .  \
-                                                              :   .
-                                                              |    .
-                                                              |    :
-                                                              |    |
-              ..._  ___                                       |    |
-            `."".`''''""--..___                              |    |
-            ,-\  \             ""-...__         _____________/    |
-            / ` " '                    `""""""""                  .
-            \                                                      L
-            (>                                                      \
-            /                                                         \
-            \_    ___..---.                                            L
-              `--'         '.                                           \
-                            .                                           \_
-                            _/`.                                           `.._
-                        .'     -.                                             `.
-                        /     __.-Y     /''''''-...___,...--------.._            |
-                      /   _."    |    /                ' .      \   '---..._    |
-                      /   /      /    /                _,. '    ,/           |   |
-                      \_,'     _.'   /              /''     _,-'            _|   |
-                              '     /               `-----''               /     |
-                              `...-'                                       `...-'
-      </pre>
+
   </main>
 
   <!--When the screen is smaller than sm make the elements center and put then one under the other-->
