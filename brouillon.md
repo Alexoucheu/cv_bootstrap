@@ -2,25 +2,26 @@
 
 <ins>Eléments à avoir sur le site :</ins>
 
-- [ ] prénom
-- [ ] photo / avatar
-- [ ] date de naissance
-- [ ] coordonnées (mail et linkedin)
-- [ ] formation
-- [ ] compétences (langues et logiciels)
-- [ ] intérêts (sports, anime, lecture, etc)
+- [x] prénom
+- [x] photo / avatar
+- [x] date de naissance
+- [x] coordonnées (mail et linkedin)
+- [x] formation
+- [x] compétences (langues et logiciels)
+- [x] intérêts (sports, anime, lecture, etc)
+- [x] expériences
+- [x] projets
+---
+
+- [x] version mobile
+- [x] version tablette
+- [x] version ordinateur
 
 ---
 
-- [ ] version mobile
-- [ ] version tablette
-- [ ] version ordinateur
-
----
-
-- [ ] grid
-- [ ] éléments qui changent en version mobile
-- [ ] utilisation de minimum 3 classes utilitaire
+- [x] grid
+- [x] éléments qui changent en version mobile
+- [x] utilisation de minimum 3 classes utilitaire
 
 ## Les différentes sections / "*pages*"
 
@@ -35,20 +36,22 @@
 ### ***Ajouts ?***
 
  - changer de langues
- - faire un menu pour naviguer
+ - bouton pour changer les langues
 
 ### Les différentes classes utilitaires que je voudrais utiliser
 
- - Carousel (Pour faire comme des *slides*.)
+ - ~~Carousel (Pour faire comme des *slides*.)~~
  - ~~Breadcrumb (Pour voir notre localisation dans le site.)~~
- - Buttongroup (Pour montrer des cards ????? *à voir*.)
- - Modal (Au début pour capter l'attention du visiteur ?, genre 'êtes-vous prêts à être surpris ??!!')
- - Popovers (Pour créer quelquechose d'interactif ??)
- - Progress (Pour faire semblent que tout va mal.)
- - Toasts pour la première page
+ - ~~Buttongroup (Pour montrer des cards ????? *à voir*.)~~
+ - ~~Modal (Au début pour capter l'attention du visiteur ?, genre 'êtes-vous prêts à être surpris ??!!')~~
+ - ~~Popovers (Pour créer quelquechose d'interactif ??)~~
+ - ~~Progress (Pour faire semblent que tout va mal.)~~
+ - ***Toasts pour la première page***
 
 ### Les différentes classes utilitaires utilisées
 
  - btn group (pour les headers)
  - btn (pour les liens des headers)
  - navbar (pour le footer)
+ - toast (pour la page d'accueil)
+ - carousel (pour les expériences dans la page des intérêts)
