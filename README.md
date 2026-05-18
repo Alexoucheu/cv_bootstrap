@@ -18,40 +18,38 @@ Projet pour le cours "Outils_de_developpement_site_web" *de johannchopin* à l'I
 ## Le télécharger manuellement
 
 Vérifier si vous avez npm d'installé, si non
-'''bash
+```bash
 sudo apt install npm
-'''
+```
 
 Ensuite changez de répertoire pour aller dans celui où vous voulez installer le serveur et clonez le git
-'''bash
+```bash
 cd votrerepertoire/
 git clone "https://github.com/Alexoucheu/cv_bootstrap"
-'''
+```
 
 Allez au répertoire cv_bootstrap ainsi crée
-'''bash
+```bash
 cd cv_boostsrap/
+```
+
 Installez les modules nécéssaires
-'''bash
+```bash
 npm install
-'''
+```
 
 Il faut aussi avoir nodejs d'installé sinon installez-le.
 
 Allez au répertoire site
-'''bash
+```bash
 cd site/
-'''
+```
 
 Démarrez le serveur
-'''bash
+```bash
 npm run preview
-'''
+```
 
-Et ensuite dans une nouvelle page tapez
-'''text
-localhost:xxxx/
-'''
-avec xxxx le port donné par npm.
+Et ensuite dans une nouvelle page tapez 'localhost:xxxx/', avec xxxx le port donné par npm.
 
 Et voila c'est tout bon !
